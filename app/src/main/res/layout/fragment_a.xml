@@ -10,8 +10,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:contentDescription="kawaii003"
-        android:src="@drawable/kawaii003"
+        android:contentDescription="kawaii001"
+        android:src="@drawable/kawaii001"
         app:layout_constraintBottom_toTopOf="@id/btnNext"
         app:layout_constraintHeight_percent="0.4"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,8 +29,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:contentDescription="kawaii004"
-        android:src="@drawable/kawaii004"
+        android:contentDescription="kawaii002"
+        android:src="@drawable/kawaii002"
         app:layout_constraintTop_toBottomOf="@id/btnNext"
         app:layout_constraintHeight_percent="0.4"
         app:layout_constraintStart_toStartOf="parent"
