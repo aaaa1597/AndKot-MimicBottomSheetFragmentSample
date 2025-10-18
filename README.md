@@ -1,0 +1,2 @@
+# AndKot-MimicBottomSheetFragmentSample
+Mimic BottomSheetDialogFragment Sample
