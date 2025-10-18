@@ -30,7 +30,7 @@ class FragmentA : Fragment() {
             val existingFragment = parentFragmentManager.findFragmentByTag("MimicBottomSheetFragment")
             if (existingFragment != null) return@setOnClickListener
             parentFragmentManager.beginTransaction()
-                .setCustomAnimations(R.anim.nav_up_enter_anim, R.anim.nav_up_exit_anim)
+                .setCustomAnimations(R.anim.nav_up_enter_anim, R.anim.nav_up_exit_anim, R.anim.nav_up_pop_enter_anim, R.anim.nav_up_pop_exit_anim)
                 .setReorderingAllowed(true)
                 .add(R.id.fragment_container, MimicBottomSheetFragment::class.java, null, "MimicBottomSheetFragment")
                 .addToBackStack(null)
